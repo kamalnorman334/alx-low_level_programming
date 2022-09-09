@@ -3,10 +3,13 @@
 #include <stdio.h>
 
 /*
- * main - Entry point
+ * main - Entr point prints a random number and states if poss, nega or zero
  *
- *Description: the program executes number n and states if it is +, - or 0
-
+ * Description: the program
+ * if n > 0: possitive
+ * if n < 0: negative
+ * in n ==0: zero
+ *
  * Return: Always 0 (Success)
  */
 
