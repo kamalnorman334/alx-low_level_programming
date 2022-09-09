@@ -1,6 +1,8 @@
 #include <stdio.h>
+
 /**
- * main - prints all numbers zero to ten using putchar 
+ * main - prints digit number 10 starting from 0,
+ * using putchar
  * Return: Always 0 (Success)
  */
 int main(void)
