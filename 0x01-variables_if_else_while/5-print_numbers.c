@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints  numbers zero to ten
- * 
+ * main - prints numbers zero to ten
  * Return: Always 0 (Success)
  */
 int main(void)
