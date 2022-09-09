@@ -4,7 +4,9 @@
 
 /*
  * main - Entry point
+ *
  *Description: the program executes number n and states if it is +, - or 0
+
  * Return: Always 0 (Success)
  */
 
@@ -15,7 +17,7 @@ int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
-printf("%d is possitive\n", n);
+printf("%d is possitive", n);
 else if (n < 0)
 printf("%d is negative\n", n);
 else
