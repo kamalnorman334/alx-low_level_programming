@@ -3,11 +3,9 @@
 #include <stdio.h>
 
 /*
- * main - Entry number assigned to variable n when it is executed
- * if the number is > 0: it is possitive
- * if the number is == 0: it is 0
- *if the number is < o: it is negative
- * Return: Always 0
+ * main - Entry point
+ *Description: the program executes number n and states if it is +, - or 0
+ * Return: Always 0 (Success)
  */
 
 int main(void)
