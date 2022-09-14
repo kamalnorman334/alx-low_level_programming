@@ -1,20 +1,20 @@
-#include "main.c"
+#include "main.h"
 
-/**
- *main - Entry point
+/** print alphabets in lower case
+ * Entry point -
  * Return:0
  */
 
-int main (void)
+void print_alphabet(void)
 {
-	char chr = 'a';
+	char c = 'a';
 
-	while (chr <= 'z')
+	while (c <= 'z')
 	{
-		putchar(chr);
-		chr++;
+		_putchar(c);
+		c++;
 
 	}
-	putchar('\n');
-return (0);
+	_putchar('\n');
+
 }
