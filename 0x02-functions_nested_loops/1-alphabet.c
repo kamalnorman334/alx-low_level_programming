@@ -11,7 +11,7 @@ main(void)
 
 	while (chr <= 'z')
 	{
-		_putcharf(chr);
+		_putchar(chr);
 		chr++;
 
 	}
