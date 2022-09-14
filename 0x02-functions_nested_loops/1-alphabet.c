@@ -11,10 +11,10 @@ main(void)
 
 	while (chr <= 'z')
 	{
-		printf(chr);
+		_putcharf(chr);
 		chr++;
 
 	}
-	printf('\n');
+	_putchar('\n');
 return (0);
 }
