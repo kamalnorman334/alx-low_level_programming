@@ -11,10 +11,10 @@ main(void)
 
 	while (chr <= 'z')
 	{
-		_putchar(chr);
+		putchar(chr);
 		chr++;
 
 	}
-	_putchar('\n');
+	putchar('\n');
 return (0);
 }
