@@ -1,7 +1,7 @@
-#include <main.c>
+#include "main.c"
 
 /**
- * print_alphabet - Entry point
+ *main - Entry point
  * Return:0
  */
 
