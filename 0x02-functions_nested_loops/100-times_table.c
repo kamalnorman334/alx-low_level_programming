@@ -1,43 +1,51 @@
-#include"main.h"
+#include "main.h"
 
 /**
- * print_times_table - prints time table of n starting with 0
- *
- * @n: takes number input
- *
- * return 0
-*/
+ * print_times_table - prints times table
+ * @n : entry
+ * Return:void
+ */
 
 void print_times_table(int n)
 {
-	int prod, tms, num;
 
-	if (n <= 15 && n >= 0)
+int a = 0, rep, b;
+
+if (n < 0 || n > 15)
+	return;
+
+while (a <= n)
+{
+	for (b = 0; b <= n; b++)
 	{
-		for (num = 0; num <= n; ++num)
+		rep = a * b;
+		if (b == 0)
+			_putchar('0' + rep);
+		else if (rep < 10)
 		{
-			_putchar(48);
-			for (tms = 1; tms <= n; ++tms)
-			{
-				_putchar(',');
-				_putchar(' ');
-
-				prod = num * mult;
-
-				if (prod <= 9)
-					_putchar(' ');
-				if (prod <= 99)
-					_putchar(' ');
-
-				if (prod >= 100)
-				{
-					_putchar((prod / 100) + 48);
-					_putchar((prod / 10) % 10 + 48);
-				} else if (prod <= 99 && prod >= 10)
-					_putchar((prod / 10) + 48);
-				_putchar((prod % 10) + 48);
-			}
-			_putchar('\n');
+			_putchar(' ');
+			_putchar(' ');
+			_putchar('0' + rep);
+		}
+		else if (rep < 100)
+		{
+			_putchar(' ');
+			_putchar('0' + rep / 10);
+			_putchar('0' + rep % 10);
+		}
+		else
+		{
+			_putchar('0' + rep / 100);
+			_putchar('0' + (rep - 100) / 10);
+			_putchar('0' + rep % 10);
+		}
+		if (b < n)
+		{
+			_putchar(',');
+			_putchar(' ');
 		}
 	}
+	_putchar('\n');
+	a++;
+}
 }
