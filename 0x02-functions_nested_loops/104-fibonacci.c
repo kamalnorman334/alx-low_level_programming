@@ -8,7 +8,7 @@
  */
 
 /**
- *  *main - prints the first 98 fibonaci sequences
+ * main - prints the first 98 fibonaci sequences
  *  Return: 0
  */
 
