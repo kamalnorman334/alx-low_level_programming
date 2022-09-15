@@ -2,6 +2,7 @@
 
 
 /**
+ * main - prints the first 98 fibonaci sequences
  * numLength - returns the lenth of string
  * @num : operand number
  * Return: 0
