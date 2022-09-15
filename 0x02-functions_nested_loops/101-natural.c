@@ -1,14 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
- * main - Entry point
- *
- * Description: computes multiple of 3 0r 5 
- *
- * Return: Always 0 (Success)
-*/
-
+ * main - main entry
+ * Description: computes and prints the sum of all the multiples of 3 or
+ * 5 below 1024 (excluded)
+ * new line
+ * Return: 0
+ */
 int main(void)
 {
 	int c = 0;
