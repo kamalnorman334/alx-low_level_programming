@@ -4,12 +4,7 @@
 /**
  * numLength - returns the lenth of string
  * @num : operand number
- * Return: number of digits
- */
-
-/**
- * main - prints the first 98 fibonaci sequences
- *  Return: 0
+ * Return: 0
  */
 
 int numLength(int num)
