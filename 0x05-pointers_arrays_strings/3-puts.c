@@ -10,14 +10,12 @@
 
 void _puts(char *str)
 {
-char *c;
-int i;
+int i = 0;
 
-c = str;
-
-for (i = 0; c[i]; i++)
-{
-_putchar (c[i]);
-}
-_putchar('\n');
+	while (str[i])
+	{
+		_putchar(str[i]);
+		i++;
+	}
+	_putchar('\n');
 }
