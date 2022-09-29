@@ -10,8 +10,8 @@
 
 int _sqrt_recursion_wrapper(int n)
 {
-	int min
-	int max
+	int min;
+	int max;
 	int i, guess_squared;
 
 	i = (min + max) / 2;
