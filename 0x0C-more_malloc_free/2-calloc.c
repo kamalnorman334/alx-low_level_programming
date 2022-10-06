@@ -9,22 +9,20 @@
  *
  *Return: pointer void
  */
+
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
+void *m;
 
-char *p;
-unsigned int i;
+if (size == 0 || nmemb == 0)
+	return (NULL);
 
-if (nmemb == 0 || size == 0)
-return (NULL);
+m = malloc(nmemb * size);
 
-p = malloc(nmemb * size);
-if (p == NULL)
-return (NULL);
+if (m == 0)
+	return (NULL);
 
-for (i = 0; i < nmemb * size; i++)
-p[i] = 0;
+_memset(m, 0, nmemb * size);
 
-return (p);
-
+return (m);
 }
