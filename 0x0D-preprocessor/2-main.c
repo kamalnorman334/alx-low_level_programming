@@ -1,12 +1,10 @@
 #include <stdio.h>
 
 /*
- * Main - Entry
+ * main - entry
+ * description: A program that prints name of the file
  *
- * Description: a program that prints the name
- * of the file it was compiled from, followed by a new line.
- *
- * Return: 0
+ * return 0
  */
 
 int main(void)
