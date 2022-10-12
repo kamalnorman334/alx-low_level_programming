@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-/*
- * main - entry
- * description: A program that prints name of the file
+/* main - entry 
  *
- * return 0
+ * Description: Prints file from where it was compiled from
+ *
+ * return 0 
  */
 
-int main(void)
+int main (void)
 {
 	printf("%s\n", __FILE__);
 	return (0);
