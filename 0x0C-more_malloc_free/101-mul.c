@@ -131,3 +131,4 @@ int main(int argc, char *argv[])
 	else
 		multiply(n1, n2);
 	return (0);
+}
